@@ -1,0 +1,19 @@
+{
+ "name": "node-red-contrib-cloud-firebase-admin",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "node-red": {
+  "nodes": {
+   "firebase-admin": "firebaseAdmin.js"
+  }
+ },
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "firebase-admin": "^8.6.1"
+ }
+}

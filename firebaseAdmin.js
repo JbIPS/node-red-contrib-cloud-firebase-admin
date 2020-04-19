@@ -20,6 +20,7 @@ module.exports = function (RED) {
 			databaseURL: `https://${serviceAccountKey.project_id}.firebaseio.com`,
 			projectId: serviceAccountKey.project_id
 		}, serviceAccountKey.project_id);
+		node.firebase = admin.firestore;
 
     node.on('close', async (done) => {
 			try {

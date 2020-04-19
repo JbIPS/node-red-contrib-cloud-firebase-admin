@@ -6,6 +6,7 @@
  "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1"
  },
+ "keywords": ["node-red", "firebase"],
  "node-red": {
   "nodes": {
    "firebase-admin": "firebaseAdmin.js"

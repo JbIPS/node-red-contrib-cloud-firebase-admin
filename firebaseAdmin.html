@@ -31,8 +31,7 @@
   RED.nodes.registerType('firebase admin', {
     category: 'config',
     defaults: {
-      name: {required: false, value: "ma"},
-      //serviceAccountKey: {value: "hello", type: "text", required: true}
+      name: {false, value: ""},
     },
     credentials: {
       serviceAccountKey: {type: "text", required: true}
@@ -87,7 +86,3 @@
 		}
   });
 </script>
-
-
-
-
